@@ -1,0 +1,18 @@
+.bgbeige{
+    background-color: #FCDB67;
+}
+
+.nav > .li{
+    /* color: #FFFFFF; */
+    font-weight: 500;
+}
+
+/* Global header spacing utility */
+.header-spacing {
+    margin-top: 65px;
+}
+
+/* Ensure proper spacing for all pages */
+.page-content {
+    padding-top: 65px;
+}

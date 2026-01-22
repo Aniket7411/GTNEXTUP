@@ -1,0 +1,10 @@
+.clientsuccessBg{
+    background-image: url("../../../assets/clientStories.svg");
+    /* background-size: 100% 70%; Stretches the image to cover the entire width and height */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: top center; /* Aligns the image to the top center */
+    width: 100%; /* Ensures it spans the full width */
+    /* height: 50vh; */
+    position: relative;
+    background-color: #fff;
+}

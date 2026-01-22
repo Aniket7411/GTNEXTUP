@@ -1,0 +1,36 @@
+footer {
+    font-family: "Poppins";
+}
+
+
+
+.potential {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.social {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.followUs {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.coutriesStyle {
+    /* font-size: 16px; */
+    font-weight: 500;
+}
+
+.countriesDiv {
+    /* display: none; */
+}
+
+.button-smooth-border {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    box-shadow: 0 0 0.5px #fdef9e;
+}

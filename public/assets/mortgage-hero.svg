@@ -1,0 +1,33 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E2B10F;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#FEF3C7;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#grad1)"/>
+  
+  <!-- House Icon -->
+  <g transform="translate(200, 100)">
+    <path d="M100 150 L50 200 L150 200 Z" fill="#E2B10F" opacity="0.8"/>
+    <rect x="60" y="200" width="80" height="60" fill="#E2B10F" opacity="0.6"/>
+    <rect x="75" y="215" width="20" height="30" fill="white" opacity="0.9"/>
+    <rect x="110" y="215" width="20" height="30" fill="white" opacity="0.9"/>
+    <rect x="85" y="235" width="30" height="25" fill="#E2B10F" opacity="0.8"/>
+  </g>
+  
+  <!-- Dollar Sign -->
+  <circle cx="450" cy="120" r="40" fill="#E2B10F" opacity="0.2"/>
+  <text x="450" y="135" font-family="Arial, sans-serif" font-size="36" fill="#E2B10F" font-weight="bold" text-anchor="middle">$</text>
+  
+  <!-- Map Pin for USA -->
+  <g transform="translate(120, 280)">
+    <path d="M0 0 L20 0 L20 30 L10 40 L0 30 Z" fill="#E2B10F" opacity="0.7"/>
+    <circle cx="10" cy="10" r="8" fill="white"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="300" y="320" font-family="Arial, sans-serif" font-size="24" fill="#1F2937" font-weight="bold" text-anchor="middle">USA Mortgage Services</text>
+  <text x="300" y="350" font-family="Arial, sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">Nationwide Coverage • Licensed Professionals</text>
+</svg>
+

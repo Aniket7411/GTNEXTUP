@@ -1,0 +1,6 @@
+.businessNext{
+    padding: 4.5rem 3rem 1.5rem 3rem;
+
+    background-image: url("../../assets/nextBusinBack.svg");
+    backface-visibility: 0.1;
+}

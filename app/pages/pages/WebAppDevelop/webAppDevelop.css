@@ -1,0 +1,71 @@
+.webAppBg {
+    background-color: #FFFDEF;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.weMakeSure {
+    font-size: 3rem;
+    font-weight: 400;
+    /* font-family: "RF Dewi Extended"; */
+    padding: 0 3rem;
+}
+
+.atgettech {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 3rem;
+}
+
+.whoWeAre {
+    padding: 0 3rem;
+}
+
+.weHelpBusiness {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 4.5rem;
+}
+
+
+
+.growGrid>div>p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.expNumbersDiv {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.backg {
+    background-image: url("../../assets/backg.svg");
+}
+
+@media screen and (max-width: 768px) {
+    .backg {
+        background-image: none;
+        background-color: #FDEF9E;
+    }
+
+    .weMakeSure {
+        font-size: 2.5rem;
+        font-weight: 600;
+        /* font-family: "RF Dewi Extended"; */
+        padding: 0 3rem;
+        line-height: 2.5rem;
+        text-align: center;
+        margin: 1rem 0 2rem 0;
+    }
+
+    .weHelpBusiness {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+}

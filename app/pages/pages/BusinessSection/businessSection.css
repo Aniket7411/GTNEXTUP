@@ -1,0 +1,7 @@
+.ecoSystem{
+    background-image: url("../../assets/back.svg");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* background-position: center; */
+    background-size: cover;
+    width: 100%; /* Ensures it spans the full width */
+}

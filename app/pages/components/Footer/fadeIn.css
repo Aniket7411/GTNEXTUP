@@ -1,0 +1,35 @@
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .country {
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+  
+  .country.delay-0 {
+    animation-delay: 0ms;
+  }
+  
+  .country.delay-1 {
+    animation-delay: 300ms;
+  }
+  
+  .country.delay-2 {
+    animation-delay: 600ms;
+  }
+  
+  .country.delay-3 {
+    animation-delay: 900ms;
+  }
+  
+  .country.delay-4 {
+    animation-delay: 1200ms;
+  }

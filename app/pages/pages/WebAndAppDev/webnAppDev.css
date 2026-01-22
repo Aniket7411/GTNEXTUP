@@ -1,0 +1,18 @@
+/* .webnAndAppBg{
+    background-image: url("../../assets/resourcesMeeting.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.whoWeAreStaffArg {
+    padding: 0 3rem;
+} 
+
+
+@media screen and (max-width: 768px) {
+    .whoWeAreStaffArg {
+        padding: 0 1rem;
+    } 
+}

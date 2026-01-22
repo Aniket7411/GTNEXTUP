@@ -1,0 +1,78 @@
+.aboutUsBg {
+    background-image: url("../../assets/aboutUsBg.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+}
+
+
+.weMakeSureAbout {
+    font-size: 3rem;
+
+    font-weight: 600;
+    line-height: 60px;
+    /* font-family: "RF Dewi Extended"; */
+    padding: 0 3rem;
+}
+
+.atgettech {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 3rem;
+}
+
+
+
+
+
+
+.growGrid>div>p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.expNumbersDiv {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.backg {
+    background-image: url("../../assets/backg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.expBoard {
+    background-image: url("../../assets/expBoard.svg");
+}
+
+@media screen and (max-width: 768px) {
+    .backg {
+        background-image: none;
+        background-color: #FDEF9E;
+    }
+
+    .weMakeSureAbout {
+        font-size: 2.5rem;
+        font-weight: 600;
+        /* font-family: "RF Dewi Extended"; */
+        padding: 0 3rem;
+        line-height: 60px;
+        text-align: center;
+        /* margin: 1rem 0 2rem 0; */
+    }
+
+    .weHelpBusinessTo {
+        width: 80%;
+        margin-inline: auto;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+}
