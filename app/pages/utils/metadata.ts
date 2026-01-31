@@ -91,6 +91,9 @@ export function getMetadataForPath(pathname: string): Metadata {
     return {
         title: metaData.title,
         description: metaData.description,
+        icons: {
+            icon: '/getraisefavicon.svg',
+        },
         openGraph: {
             title: metaData.title,
             description: metaData.description,
