@@ -55,6 +55,7 @@ const Header = () => {
   const customSalesforcePage = pathname === '/salesforce-development-services-india';
   const mortgageServicesPage = pathname === '/mortgage-services';
 
+  console.log("jhjahj")
 
 
 
@@ -211,7 +212,6 @@ const Header = () => {
             router.push('/products');
             setIsMenuOpen(false);
           }}>Products</li>
-
           <div>
             <h3 className="text-lg font-semibold mb-2">Services</h3>
             <ul className="ml-4 text-base">
