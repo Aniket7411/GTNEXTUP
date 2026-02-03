@@ -179,12 +179,12 @@ const Header = () => {
             About Us
           </div>
 
+          {/* Blog nav commented out for now
           <div
             className="relative"
             onMouseLeave={() => setIsBlogHovered(false)}
             onMouseEnter={() => setIsBlogHovered(true)}
           >
-            {/* Blog Button */}
             <button
               className="font-medium cursor-pointer focus:outline-none rounded-lg text-md text-center inline-flex items-center transition duration-200 group"
               type="button"
@@ -201,8 +201,6 @@ const Header = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
-
-            {/* Blog Dropdown Menu */}
             <div
               className={`absolute left-0 mr-[50px] mt-4 min-w-max bg-gray-700 shadow-md rounded-lg transition-all duration-300 ease-in-out overflow-hidden ${isBlogHovered ? "opacity-100 visible" : "opacity-0 invisible"
                 }`}
@@ -231,6 +229,7 @@ const Header = () => {
               </ul>
             </div>
           </div>
+          */}
 
           <div onClick={() => router.push('/contact-getraise-technologies')} className='li cursor-pointer'>
             Contact
@@ -320,6 +319,7 @@ const Header = () => {
             </ul>
           </div>
 
+          {/* Blog section commented out for now
           <div>
             <h3 className="text-lg font-semibold mb-2">Blog</h3>
             <ul className="ml-4 text-base">
@@ -349,6 +349,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
+          */}
 
           {/* <li className="list-none hover:text-yellow-400" onClick={() => {
             router.push('/about-getraise-technologies');
