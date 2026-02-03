@@ -104,7 +104,7 @@ const AboutSection = () => {
                         <div className="flex items-center space-x-2 mb-2">
                             <span className="w-4 h-4 bg-yellow-500 rounded-full mr-2"></span>
                             <h2 className="text-[28px] font-medium text-gray-900 RFDewiExtended"
-                            >Bio</h2>
+                            >BiO</h2>
                         </div>
                         <img
                             ref={imageRef}

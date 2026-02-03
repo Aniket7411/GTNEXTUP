@@ -18,12 +18,12 @@ const SlidingText = () => {
     }, []);
 
     return (
-        <div className="flex font-bold text-white left-0 right-0 w-[80%] md:w-[88%] mx-auto text-center HeroHeadingStyle montserrat-text">
+        <h1 className="flex font-bold text-white left-0 right-0 w-[80%] md:w-[88%] mx-auto text-center HeroHeadingStyle montserrat-text">
             {/* First Part */}
-            <h1 className="relative overflow-hidden me-2 md:me-4">{firstPart}</h1>
+            <span className="relative overflow-hidden me-2 md:me-4">{firstPart}</span>
 
             {/* Final Text Part */}
-            <h1 className="relative overflow-hidden">
+            <span className="relative overflow-hidden">
                 <AnimatePresence mode="wait">
                     <motion.span
                         key="finalText"
@@ -35,8 +35,8 @@ const SlidingText = () => {
                         {finalText}
                     </motion.span>
                 </AnimatePresence>
-            </h1>
-        </div>
+            </span>
+        </h1>
     );
 };
 

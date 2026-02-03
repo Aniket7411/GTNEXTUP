@@ -14,7 +14,6 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  const [isBlogHovered, setIsBlogHovered] = useState(false);
 
 
   useEffect(() => {
@@ -179,58 +178,6 @@ const Header = () => {
             About Us
           </div>
 
-          {/* Blog nav commented out for now
-          <div
-            className="relative"
-            onMouseLeave={() => setIsBlogHovered(false)}
-            onMouseEnter={() => setIsBlogHovered(true)}
-          >
-            <button
-              className="font-medium cursor-pointer focus:outline-none rounded-lg text-md text-center inline-flex items-center transition duration-200 group"
-              type="button"
-            >
-              Blog
-              <svg
-                className="w-4 h-4 ml-1 mt-1 transform transition-transform duration-300 group-hover:rotate-180"
-                fill="none"
-                stroke="yellow"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-            <div
-              className={`absolute left-0 mr-[50px] mt-4 min-w-max bg-gray-700 shadow-md rounded-lg transition-all duration-300 ease-in-out overflow-hidden ${isBlogHovered ? "opacity-100 visible" : "opacity-0 invisible"
-                }`}
-            >
-              <ul className="flex flex-col text-sm text-[#fff]">
-                <div onClick={() => { router.push('/blog/generative_ai'); setIsBlogHovered(false); }} className='li cursor-pointer'>
-                  <li className="block cursor-pointer px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                    Generative AI
-                  </li>
-                </div>
-                <div onClick={() => { router.push('/blog/performance_marketing'); setIsBlogHovered(false); }} className='li cursor-pointer'>
-                  <li className="block cursor-pointer px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                    Performance Marketing
-                  </li>
-                </div>
-                <div onClick={() => { router.push('/blog/web_developement'); setIsBlogHovered(false); }} className='li cursor-pointer'>
-                  <li className="block cursor-pointer px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                    Web Development
-                  </li>
-                </div>
-                <div onClick={() => { router.push('/blog/cloudservices'); setIsBlogHovered(false); }} className='li cursor-pointer'>
-                  <li className="block cursor-pointer px-4 py-2 hover:bg-gray-400 dark:hover:bg-gray-600 dark:hover:text-white">
-                    Cloud Services
-                  </li>
-                </div>
-              </ul>
-            </div>
-          </div>
-          */}
-
           <div onClick={() => router.push('/contact-getraise-technologies')} className='li cursor-pointer'>
             Contact
           </div>
@@ -318,38 +265,6 @@ const Header = () => {
               </li> */}
             </ul>
           </div>
-
-          {/* Blog section commented out for now
-          <div>
-            <h3 className="text-lg font-semibold mb-2">Blog</h3>
-            <ul className="ml-4 text-base">
-              <li className="cursor-pointer hover:text-yellow-400 mb-2" onClick={() => {
-                router.push("/blog/generative_ai");
-                setIsMenuOpen(false);
-              }}>
-                Generative AI
-              </li>
-              <li className="cursor-pointer hover:text-yellow-400 mb-2" onClick={() => {
-                router.push("/blog/performance_marketing");
-                setIsMenuOpen(false);
-              }}>
-                Performance Marketing
-              </li>
-              <li className="cursor-pointer hover:text-yellow-400 mb-2" onClick={() => {
-                router.push("/blog/web_developement");
-                setIsMenuOpen(false);
-              }}>
-                Web Development
-              </li>
-              <li className="cursor-pointer hover:text-yellow-400 mb-2" onClick={() => {
-                router.push("/blog/cloudservices");
-                setIsMenuOpen(false);
-              }}>
-                Cloud Services
-              </li>
-            </ul>
-          </div>
-          */}
 
           {/* <li className="list-none hover:text-yellow-400" onClick={() => {
             router.push('/about-getraise-technologies');
