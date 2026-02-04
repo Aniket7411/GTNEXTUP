@@ -91,6 +91,9 @@ export function getMetadataForPath(pathname: string): Metadata {
     return {
         title: metaData.title,
         description: metaData.description,
+        verification: {
+            google: '0XAJlYS6WzaQWB_ZhX8R6twbDOcjGGIm8j3_pJV-hek',
+        },
         icons: {
             icon: '/getraisefavicon.svg',
         },
