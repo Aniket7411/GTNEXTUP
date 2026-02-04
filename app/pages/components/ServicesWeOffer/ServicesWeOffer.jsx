@@ -8,12 +8,12 @@ const slides = [
   { id: 1, number: 1, link: "/resource-allocation-white-label-services", heading: "Resource Allocation", text: "We provide flexible and scalable resource allocation, ensuring you have the right talent and expertise when you need it. Whether for short-term projects or long-term collaboration, our dedicated professionals seamlessly integrate with your team to drive efficiency and innovation." },
   { id: 2, number: 2, link: "/website-app-development-services", heading: "Custom Software Development (Web, Mobile, SaaS)", text: "We specialize in developing custom web, mobile, and SaaS solutions designed to meet your unique business needs. Our expert-driven approach ensures scalability, seamless functionality, and a future-ready digital experience that drives efficiency and growth." },
   { id: 3, number: 3, link: "/digital-marketing-services-india", heading: "Digital Marketing & SEO", text: "We provide digital marketing and SEO services to boost your online visibility. Our data-driven strategies enhance your search rankings and drive organic traffic. We focus on analytics to refine campaigns, ensuring measurable results that align with your business goals." },
-  { id: 4, number: 4, link: "/erp-crm-development-services-india", heading: "ERP & CRM Development", text: "We create custom ERP and CRM solutions to streamline business operations and enhance customer relationships. Our tools help manage resources efficiently, automate processes, and improve business performance. Tailored to your needs, we ensure seamless integration and growth." },
-  { id: 5, number: 5, link: "/ai-automation-services-india", heading: "AI & Automation", text: "We develop AI-powered platforms tailored to businesses, integrating machine learning, chatbots, and data analytics to create intelligent, automated, and data-driven solutions." },
-  { id: 6, number: 6, link: "/ecommerce-development-services-india", heading: "E-commerce", text: "We create scalable e-commerce solutions with seamless payment integration, ensuring a secure, user-friendly shopping experience that drives sales and business growth." },
-  { id: 7, number: 7, link: "/ui-ux-design-services-india", heading: "UI/UX & Branding", text: "We offer expert UI/UX design and branding services to create user-friendly interfaces and visually appealing brands. Our solutions are tailored to improve user experience, boost engagement, and ensure a strong, cohesive brand identity. We focus on delivering intuitive, impactful designs that resonate with your target audience." },
-  { id: 8, number: 8, link: "/cloud-computing-services-india", heading: "Cloud Solutions", text: "We provide secure hosting, efficient cloud migration, and robust security services. Our solutions are designed to scale with your business, ensuring optimal performance and reliability in the cloud. Let us help you make a seamless transition to cloud-based infrastructure." },
-  { id: 9, number: 9, link: "/mortgage-services", heading: "Mortgage Services", text: "We provide comprehensive mortgage services to help you navigate the home buying process with confidence. Our expert team offers personalized guidance, competitive rates, and streamlined solutions to make your mortgage journey smooth and stress-free." },
+  // { id: 4, number: 4, link: "/erp-crm-development-services-india", heading: "ERP & CRM Development", text: "We create custom ERP and CRM solutions to streamline business operations and enhance customer relationships. Our tools help manage resources efficiently, automate processes, and improve business performance. Tailored to your needs, we ensure seamless integration and growth." },
+  // { id: 5, number: 5, link: "/ai-automation-services-india", heading: "AI & Automation", text: "We develop AI-powered platforms tailored to businesses, integrating machine learning, chatbots, and data analytics to create intelligent, automated, and data-driven solutions." },
+  // { id: 6, number: 6, link: "/ecommerce-development-services-india", heading: "E-commerce", text: "We create scalable e-commerce solutions with seamless payment integration, ensuring a secure, user-friendly shopping experience that drives sales and business growth." },
+  { id: 4, number: 4, link: "/ui-ux-design-services-india", heading: "UI/UX & Branding", text: "We offer expert UI/UX design and branding services to create user-friendly interfaces and visually appealing brands. Our solutions are tailored to improve user experience, boost engagement, and ensure a strong, cohesive brand identity. We focus on delivering intuitive, impactful designs that resonate with your target audience." },
+  { id: 5, number: 5, link: "/cloud-computing-services-india", heading: "Cloud Solutions", text: "We provide secure hosting, efficient cloud migration, and robust security services. Our solutions are designed to scale with your business, ensuring optimal performance and reliability in the cloud. Let us help you make a seamless transition to cloud-based infrastructure." },
+  { id: 6, number: 6, link: "/mortgage-services", heading: "Mortgage Services", text: "We provide comprehensive mortgage services to help you navigate the home buying process with confidence. Our expert team offers personalized guidance, competitive rates, and streamlined solutions to make your mortgage journey smooth and stress-free." },
 ];
 
 
@@ -310,13 +310,13 @@ export default function VerticalScrollSlider() {
           })}
         </div>
       </div>
-      <Link href="/services">
+      {/* <Link href="/services">
 
         <button className="flex mx-auto cursor-pointer align-center px-4 py-2 border border-black rounded-full hover:bg-black hover:text-white mb-16 md:mb-20 
        transition-colors duration-500 ease-in-out">
           Explore Services
         </button>
-      </Link>
+      </Link> */}
     </>
   );
 }
