@@ -7,7 +7,7 @@ const industryData = [
         title: "E-commerce Brands: Fast, Scalable & User-Centric",
         img: "/assets/card1.jpg", // replace with actual image
         description:
-            "We assist e-commerce companies in creating cloud-enabled stores that are fast, secure, and scale high. Our cloud infrastructure management handles everything, including peak-season traffic, integration of real-time inventory, and order tracking.",
+            "We assist e-commerce companies in creating cloud-enabled stores that are fast, secure, and built to scale with conversion-focused <a href=\"https://getraisetechnologies.com/digital-marketing-services-india\" class=\"text-blue-600 hover:text-blue-800 transition-colors duration-200\">digital marketing</a> strategies. Our cloud infrastructure management handles everything, including peak-season traffic, real-time inventory integration, and order tracking.",
         points: [
             "Salesforce for CRM and customer lifecycle management",
             "Trello, and Asana for team workflows and task automation",
@@ -84,7 +84,14 @@ const IndustryCards = () => {
 
                         {/* Content */}
                         <div className="p-5">
-                            <p className="text-gray-600 mb-4">{item.description}</p>
+                            {/<a\s/i.test(item.description) ? (
+                                <p
+                                    className="text-gray-600 mb-4"
+                                    dangerouslySetInnerHTML={{ __html: item.description }}
+                                />
+                            ) : (
+                                <p className="text-gray-600 mb-4">{item.description}</p>
+                            )}
 
                             <p className="font-semibold my-1">{item.wedo}:</p>
 

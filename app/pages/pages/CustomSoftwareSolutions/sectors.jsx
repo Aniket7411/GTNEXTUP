@@ -10,7 +10,7 @@ const sectors = [
     {
         title: "Retail & e commerce",
         content:
-            "Our solutions help manage inventory, automate customer engagement, and boost sales through personalized shopping experiences.",
+            "Our solutions help manage inventory, automate customer engagement, and boost sales through personalized shopping experiences powered by conversion-focused <a href=\"https://getraisetechnologies.com/website-app-development-services\">website &amp; app development</a>.",
         img: "/assets/crmcard2.png",
     },
     {

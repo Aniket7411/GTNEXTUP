@@ -26,7 +26,10 @@ const ResourceAllocSecOne = () => {
 
                         }}
                     >
-                        In the modern business environment where everything happens rapidly and fast, having the right talent at the right time is everything.  That is where resource allocation and staff augmentation interplay - two powerful solutions that will allow you to remain lean and agile all at the same time. Want a short-term solution or a long-term talent? We connect you with the right people to fill your skill gaps, lower hiring expenses, and keep your projects on the go.                    </p>
+
+                        In today’s fast-paced business environment, having the right talent at the right time is everything. That’s where resource allocation and staff augmentation come together—two powerful solutions that help you stay lean and agile. Whether you need short-term expertise or long-term talent, we connect you with the right professionals to support performance marketing campaigns, <a href="https://getraisetechnologies.com/cloud-computing-services-india" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">custom software solutions</a>
+                        , and <a href="https://getraisetechnologies.com/ui-ux-design-services-india" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">UI/UX design services</a>, while reducing hiring costs and keeping your projects moving forward.
+                    </p>
                 </div>
 
                 {/* Left - Image Carousel */}

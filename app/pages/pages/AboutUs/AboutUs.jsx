@@ -335,7 +335,7 @@ const AboutUs = () => {
                 height: '70vh'
             }}>
                 <div className='relative bg-[#222222] rounded-b-3xl rounded-l-3xl flex flex-col items-center justify-center text-center min-h-[60vh] text-white px-2'>
-                    <h1 className='text-5xl font-bold mb-5 z-10'>Join Our Team</h1>
+                    <h2 className='text-5xl font-bold mb-5 z-10'>Join Our Team</h2>
                     <p className='mb-5'>We’re always looking for talented individuals to join our expert network and build cutting-edge solutions.</p>
                     <button onClick={() => { router.push("/career") }} className='border border-white hover:border-[#FDEF9E] hover:bg-[#FDEF9E] hover:text-black py-5 px-8 rounded-3xl z-10' style={{
                         cursor: 'pointer'

@@ -39,7 +39,7 @@ const Webdevelopmentblog = () => {
 
                 {/* Section: Applications Across Industries */}
                 <div>
-                    <h1 className="text-xl md:text-2xl font-semibold mb-2">Applications Across Industries</h1>
+                    <h2 className="text-xl md:text-2xl font-semibold mb-2">Applications Across Industries</h2>
                     <p className="mb-2">
                         Don't underestimate the power of web and app development being confined only to tech companies—it is the
                         digital backbone of every modern industry.

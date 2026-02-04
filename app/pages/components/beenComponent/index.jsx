@@ -61,11 +61,11 @@ const Beancomponent = () => {
   return (
     <div className="flex justify-between flex-wrap p-8 px-5 items-center bg-[#000]">
       <div className="text-white h-auto mt-3 flex flex-col gap-1">
-        <h1 className="text-[#FEEE99] text-2xl md:text-3xl lg:text-5xl">
+        <h2 className="text-[#FEEE99] text-2xl md:text-3xl lg:text-5xl">
           Have questions in mind?
-        </h1>
+        </h2>
 
-        <h1 className="text-lg">Don't Worry</h1>
+        <h2 className="text-lg">Don't Worry</h2>
 
         <p className="text-base max-w-[600px]">{displayAskMessage}</p>
 

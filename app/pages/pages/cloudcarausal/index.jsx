@@ -4,7 +4,7 @@ const cardData = [
     {
         title: 'Resource Allocation and configuration',
         description:
-            'We expertly configure virtual machines, storage, networking, and cloud environments to fit your custom software solution, whether for a product, website, or mobile app.',
+            'We expertly configure virtual machines, storage, networking, and cloud environments to fit your custom software solution, whether for a product, website, or mobile app  powered by our resource allocation services  powered by our <a href="https://getraisetechnologies.com/resource-allocation-white-label-services"> resource allocation services </a>.  powered by our resource allocation services.',
         image: '/assets/resources.png',
     },
     {

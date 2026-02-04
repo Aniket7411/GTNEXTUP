@@ -16,14 +16,14 @@ const OurProcess = () => {
             id: 1,
             number: '1',
             title: 'Requirement Analysis',
-            description: 'Business goal understanding is the start of everything. If you are looking to hire white label developers in India, expand your white label UI/UX design capabilities, or outsource any IT projects in India, this step ensures we are aligned from the start.',
+            description: 'Business goal understanding is the start of everything. If you are looking to hire white label developers in India, expand your white label UI/UX design capabilities, or outsource IT projects, <a href="https://getraisetechnologies.com/digital-marketing-services-india">digital marketing services</a>, or <a href="https://getraisetechnologies.com/custom-software-development-company" class="text-blue-600 hover:text-blue-800 transition-colors duration-200">custom software development</a> in India, this step ensures we are aligned from the start.',
             image: "/assets/ReqAnalysis.svg",
         },
         {
             id: 2,
             number: '2',
             title: 'Talent Matching',
-            description: 'Once the requirement is defined, we dive into our vetted pool of professionals. We identify the ideal match—technically skilled and culturally compatible—for roles like digital marketing, white label software development. Only after finding the right fit, we move to onboarding.',
+            description: 'Once the requirement is defined, we dive into our vetted pool of professionals. We identify the ideal match—technically skilled and culturally compatible—for roles like <a href="https://getraisetechnologies.com/digital-marketing-services-india">digital marketing specialists</a>, <a href="https://getraisetechnologies.com/custom-software-development-company" class="text-blue-600 hover:text-blue-800 transition-colors duration-200">white label software developers</a>, and <a href="https://getraisetechnologies.com/cloud-computing-services-india">cloud engineers</a>. Only after finding the right fit, we move to onboarding.',
             image: "/assets/talentMatching.svg",
         },
         {
@@ -77,8 +77,8 @@ const OurProcess = () => {
                                     {step.title}
                                 </h3>
                                 <div className="mt-2">
-                                    <p> {step.description}</p>
-                                </div>
+                                    <p dangerouslySetInnerHTML={{ __html: step.description }} />
+                            </div>
                             </div>
                         </div>
                         <img src={step.image} className="rounded-lg" alt={step.title} />

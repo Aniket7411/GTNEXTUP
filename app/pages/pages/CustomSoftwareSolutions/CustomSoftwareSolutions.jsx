@@ -114,7 +114,7 @@ const services = [
     {
         title: "Salesforce Integration",
         image: "/assets/sds (5).svg",
-        para: "Integrate Salesforce with your existing tools and platforms—ERP, payment gateways, APIs, and third-party software."
+        para: "Seamlessly integrate Salesforce with your existing tools and platforms—including ERP systems, payment gateways, APIs, and third-party software—using scalable <a href=\"https://getraisetechnologies.com/cloud-computing-services-india\">cloud services</a>.",
     },
     {
         title: "Workflow Automation",
@@ -165,8 +165,7 @@ const CustomSalesforceSolutions = () => {
 
                         <p className="text-sm md:text-md xl:text-md text-[#202020]  md:w-[45%] mx-auto mt-4">
                             At Getraise Technologies, we help businesses unlock the full potential of
-                            Salesforce—streamlining processes, improving team efficiency, and delivering
-                            seamless customer journeys through tailored CRM development.
+                            Salesforce—streamlining processes, improving team efficiency, and delivering seamless customer journeys through tailored CRM development integrated with <a href="https://getraisetechnologies.com/digital-marketing-services-india" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">digital marketing services</a> & <a href="https://getraisetechnologies.com/performance-marketing-services" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">performance marketing strategies</a>.
                         </p>
                     </div>
 

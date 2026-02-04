@@ -194,7 +194,7 @@ const CustomSofts = () => {
 
                         <p className='text-xl lg:text-3xl font-semibold mb-2'>Transform Your Vision into Real-World Software</p>
                         <p className='text-[14px] md:w-[90%]'>
-                            Getraise Technologies is a custom software development company trusted by startups and enterprises for it’s digital solutions that drive efficiency, innovation, and measurable business value. Our affordable software development services are customized to streamline operations, boost performance, and drive measurable ROI. From a startup testing an MVP or an enterprise optimizing workflows, our software development services are designed to fulfill your exact needs — no bloat, no off-the-shelf limits. We don’t offer one-size-fits-all — we build what fits you.
+                            Getraise Technologies is a custom software development company trusted by startups and enterprises for it’s digital solutions that drive efficiency, innovation, and measurable business value. Our affordable software development services are customized to streamline operations, boost performance, and drive measurable ROI when aligned with <a href='https://getraisetechnologies.com/digital-marketing-services-india' className="text-blue-600 hover:text-blue-800 transition-colors duration-200"> digital & performance marketing </a> strategie From a startup testing an MVP or an enterprise optimizing workflows, our software development services are designed to fulfill your exact needs — no bloat, no off-the-shelf limits. We don’t offer one-size-fits-all — we build what fits you.
                         </p>
 
                     </div>
@@ -253,9 +253,8 @@ const CustomSofts = () => {
                                 </h3>
                                 <p className="leading-relaxed text-sm sm:text-base">
                                     Our affordable custom software development would give you that edge
-                                    that an out-of-the-box implementation solution cannot. Designed for
-                                    long-term ROI, better UX, and complete control, our solutions grow
-                                    with you, not against you. We are the best custom software development
+                                    that an out-of-the-box implementation solution cannot. Designed for long-term ROI, better UX, and complete control with scalable cloud infrastructure., our solutions grow
+                                    with you, not against you. We are the best <a href='https://getraisetechnologies.com/custom-software-development-company' className="text-blue-600 hover:text-blue-800 transition-colors duration-200"> custom software development </a>
                                     agency to give full support to businesses that want software to be a
                                     strategic asset, not just a tool.
                                 </p>

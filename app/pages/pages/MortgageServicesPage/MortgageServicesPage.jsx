@@ -103,9 +103,9 @@ const ServicesSection = () => {
             <h1 className="text-black text-[2.5rem] md:text-[3.5rem] mt-[110px] lg:mt-0 lg:text-[5rem] leading-tight font-bold m-0">
               Your Dream Home
             </h1>
-            <h1 className="text-[2.3rem] text-[#E2B10F] md:text-[3rem] lg:text-[5rem] leading-tight font-bold m-0">
+            <h2 className="text-[2.3rem] text-[#E2B10F] md:text-[3rem] lg:text-[5rem] leading-tight font-bold m-0">
               Awaits You
-            </h1>
+            </h2>
             <p className="text-[16px] md:text-[20px] font-medium w-[80%] mx-auto mt-2">
               See the change a community-oriented approach will produce. We have local specialists who are willing to offer their hand to help in your financial future plans, whether you require a new mortgage, refinancing or merely discussing your financial needs. Enough with mediocre and mediocre mortgage services, it is time to begin enjoying a superior attitude towards mortgage services, one that is friendly, supportive and user-focused.
             </p>
@@ -149,7 +149,7 @@ const ServicesSection = () => {
               fontSize: '15px',
             }}
           >
-            The mortgage services also allow our customers to realize the property value to different financial needs such as home ownership, business growth, and personal needs. We make it easy and carefree to finance as we offer flexible repayment terms and competitive rates.
+            The mortgage services also allow our customers to realize the property value to different financial needs such as home ownership, business growth, and personal needs through  <a href="https://getraisetechnologies.com/cloud-computing-services-india" className="text-blue-600 hover:text-blue-800 transition-colors duration-200"> secure financial software systems </a>. We make it easy and carefree to finance as we offer flexible repayment terms and competitive rates.
           </p>
           <div className="mt-4">
             <h4 className="text-xl font-semibold mb-3 text-gray-800">Our Mortgage Offerings Include:</h4>
@@ -250,7 +250,7 @@ const ServicesSection = () => {
               <FaFileContract className="text-4xl text-[#E2B10F] mb-4" />
               <h3 className="text-xl font-bold mb-3 text-gray-800">Underwriting & Processing</h3>
               <p className="text-gray-600">
-                Professional underwriting services where documentation and compliance checking is simplified and super processing performed to hasten the process of getting your loan.
+                Professional underwriting services supported by dedicated <a href="https://getraisetechnologies.com/resource-allocation-white-label-services">resource allocation teams </a> . where documentation and compliance checking is simplified and super processing performed to hasten the process of getting your loan.
               </p>
             </motion.div>
 
@@ -458,7 +458,7 @@ const ServicesSection = () => {
               Seamless Digital Experience
             </h3>
             <p className="text-lg text-gray-600 mb-8 max-w-3xl">
-              Our platform will provide a convenient online experience in which the customers can access managing their mortgage cases without leaving their homes.
+              Our intuitive interfaces are designed using proven <a href="https://getraisetechnologies.com/ui-ux-design-services" className="text-blue-600 hover:text-blue-800 transition-colors duration-200"> UI/UX design best practices </a> to ensure clarity, speed, and trust at every step.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 text-center">

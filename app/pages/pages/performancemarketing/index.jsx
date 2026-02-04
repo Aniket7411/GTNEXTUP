@@ -89,7 +89,7 @@ const PerformanceMarketing = () => {
                 </ul>
             </section>
             <div className=" mx-auto">
-                <h1 className="text-xl md:text-2xl font-semibold mb-4">The Challenges</h1>
+                <h2 className="text-xl md:text-2xl font-semibold mb-4">The Challenges</h2>
                 <ul className="list-none space-y-4 mb-4">
                     <li className="flex items-start">
                         <span className="text-red-500 mr-2">❌</span>
@@ -110,7 +110,7 @@ const PerformanceMarketing = () => {
                     </li>
                 </ul>
 
-                <h1 className="text-xl md:text-2xl font-semibold mb-4">The Future of Performance Marketing</h1>
+                <h2 className="text-xl md:text-2xl font-semibold mb-4">The Future of Performance Marketing</h2>
                 <p className="mb-4">
                     The future of performance marketing is situated in personalization, privacy-conscious innovation, and
                     automation.

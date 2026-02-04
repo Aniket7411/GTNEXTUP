@@ -79,7 +79,7 @@ const BusinessSection = () => {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl text-center font-semibold leading-tight mb-4 mt-[140px] font-poppins">
                     SaaS Products Built for<br /> Real-World Business Needs
                 </h1>
-           
+
                 <p className="text-center">At Getraise Technologies, we design and deliver ready-made software solutions that help you launch faster, scale smarter, <br /> and grow digitally, without starting from zero.With 40+ successful software launches, 20+ industries served, and a 95% <br />  client retention rate, our numbers speak for themselves.     </p>
 
                 <div className="flex justify-center gap-4 mt-8 mb-8 md:mt-6 px-4 md:px-8 z-30">
@@ -120,7 +120,10 @@ const BusinessSection = () => {
 
 
                         <p className="text-gray-400 text-sm sm:text-base w-auto">
-                            SaaS (Software as a Service) products are ready-made software solutions hosted on the cloud and accessed through the internet. These SaaS solutions for business are not only affordable but also scalable and easy to customize. No matter what is your business size, SaaS eliminates the need for large upfront investments in hardware and development. With SaaS solutions for business, you can launch faster, pay as you grow, and concentrate completely on your business, while we handle the tech.
+                            SaaS (Software as a Service) products are ready-made software solutions hosted on the <a href="https://getraisetechnologies.com/cloud-computing-services-india" className="text-blue-600 hover:text-blue-800 transition-colors duration-200"> cloud infrastructure </a>  and accessed through the internet.
+                            and accessed through the internet. These SaaS solutions for business are not only affordable but also scalable and easy to customize through  <a href="https://getraisetechnologies.com/custom-software-development-company"
+
+                                className="text-blue-600 hover:text-blue-800 transition-colors duration-200"> custom software development services </a>. No matter what is your business size, SaaS eliminates the need for large upfront investments in hardware and development. With SaaS solutions for business, you can launch faster, pay as you grow, and concentrate completely on your business, while we handle the tech.
                         </p>
                         <p className="text-gray-400 text-sm sm:text-base w-auto">
                             At Getraise Technologies, we offer a variety of customizable software products in the SaaS model from CRM and inventory management systems to education platforms and health booking systems.                      </p>
@@ -185,7 +188,7 @@ const BusinessSection = () => {
                         <div className="space-y-4 mt-2 md:mt-4 lg:mt-8">
                             {[
                                 {
-                                    title: "Easy to Use",
+                                    title: "Easy to use, powered by intuitive <a href='https://getraisetechnologies.com/ui-ux-design-services' class='text-blue-600 hover:text-blue-800 transition-colors duration-200'>  UI/UX design best practices. </a>",
                                     description:
                                         "Our ready-made software solutions are designed to be user-friendly, so your team can start using them quickly — no special training needed.",
                                 },
@@ -216,7 +219,7 @@ const BusinessSection = () => {
 
                                     {/* Text */}
                                     <div className="text-gray-700 text-base">
-                                        <h3 className="text-xl font-semibold mb-1">{feature.title}</h3>
+                                        <h3 className="text-xl font-semibold mb-1" dangerouslySetInnerHTML={{ __html: feature.title }} />
                                         <p className="text-base">{feature.description}</p>
                                     </div>
                                 </div>
@@ -244,7 +247,7 @@ const BusinessSection = () => {
 
                 <ProductsFAQ />
             </div>
-            
+
             {/* What Our Clients Say About Us Section */}
             <div className="px-4 md:px-12 my-12">
                 <div className="flex items-center space-x-2 mb-5">
@@ -254,7 +257,7 @@ const BusinessSection = () => {
                     </h2>
                 </div>
             </div>
-            
+
             <TestimonialCarousel />
 
 

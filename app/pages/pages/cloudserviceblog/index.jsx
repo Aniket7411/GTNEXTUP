@@ -39,7 +39,7 @@ const Cloudservicesblog = () => {
 
                 {/* Section: Applications Across Industries */}
                 <div>
-                    <h1 className="text-xl md:text-2xl font-semibold mb-2">Applications Across Industries</h1>
+                    <h2 className="text-xl md:text-2xl font-semibold mb-2">Applications Across Industries</h2>
                     <p className="mb-2">
                         Cloud services can also be called "unsung heroes of modern industries", see why:
                     </p>

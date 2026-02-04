@@ -65,7 +65,7 @@ const UiUxSinglePage = () => {
             <h1 className="bg-text bg pb-6">
               User - First Design that Drives engagement
             </h1>
-            <h1 className='font-bold text-2xl text-[#000]'>UI/UX Design Trusted by Global Leaders, Built for Every Business</h1>
+            <h2 className='font-bold text-2xl text-[#000]'>UI/UX Design Trusted by Global Leaders, Built for Every Business</h2>
             <p className="text-[#737373] text-lg  w-full md:w-[75%] mx-auto md:mx-0">
               At Getraise, our expert UI/UX design services strike a perfect balance between user satisfaction and business outcomes—turning clicks into conversions and ideas into immersive digital experiences.
             </p>

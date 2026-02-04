@@ -142,7 +142,7 @@ const WebnAppDev = () => {
                     <h2 className=' text-lg md:text-[28px] font-semibold mb-2' style={{
                         fontFamily: 'poppins'
                     }}>Why Your Business Needs a Website or App</h2>
-                    <p className='font-semibold text'>It does not matter whether you are a service provider, e-commerce brand, start-up, or local business; <br /> creating a digital home is not optional anymore, even it becomes a necessity. An exclusive site or application <br /> designed by a professional website and app development company enhances awareness, streamlines <br /> processes, and enables long-term growth.</p>
+                    <p className='font-semibold text'>It does not matter whether you are a service provider, e-commerce brand, start-up, or local business; creating a digital home is not optional anymore—it has become a necessity. An exclusive site or application designed by a professional website and app development company, supported by strong <a href="https://getraisetechnologies.com/ui-ux-design-services-india" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">UI/UX design</a> and integrated <a href="https://getraisetechnologies.com/digital-marketing-services-india" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">digital marketing services</a>, enhances awareness, streamlines processes, and enables long-term growth.</p>
 
 
 
@@ -219,10 +219,7 @@ const WebnAppDev = () => {
                         <div className="flex-1 text-center md:text-left">
 
                             <p className="text-[#202020] text-end leading-relaxed text-sm  mt-8 md:text-md">
-                                We are Getraise Tech, a leading and affordable website and app development company in India.
-                                With more than 50 successful projects and 100+ satisfied clients, we create user-friendly,
-                                fast-performing, and future-ready software solutions. From responsive websites to scalable mobile apps,
-                                we design superior digital products that drive growth and engagement for your brand.
+                            From responsive websites to scalable mobile apps, we design superior digital products that integrate seamlessly with <a href="https://getraisetechnologies.com/cloud-computing-services-india" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">cloud services</a> to drive growth and engagement for your brand.
                                 Let’s explore about Usto find out why we rank high among the best web & app development companies in India.
                             </p>
                         </div>

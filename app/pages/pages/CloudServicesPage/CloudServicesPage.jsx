@@ -89,14 +89,14 @@ const cloudCards = [
     svgSrc: "/assets/cloud (3).svg",
     icon: "/assets/devOpsAuto.svg",
     title: "DevOps & Automation",
-    description: "We help accelerate your development lifecycle by automating CI/CD pipelines using Kubernetes, Docker, and Terraform. GetRaise enables high availability and rapid scaling—true hallmarks of enterprise cloud services.",
+    description: "We accelerate your development lifecycle by automating CI/CD pipelines for faster <a href=\"https://getraisetechnologies.com/custom-software-development-company\" class=\"text-blue-600 hover:text-blue-800 transition-colors duration-200\">custom software development</a> and reliable deployments using Kubernetes, Docker, and Terraform. GetRaise enables high availability and rapid scaling—hallmarks of enterprise cloud services.",
     className: "lg:mt-[75px] lg:-ml-[70px] lg:z-[8]",
   },
   {
     svgSrc: "/assets/cloud (4).svg",
     icon: "/assets/cloudNativeApp.svg",
     title: "Cloud-Native App Development",
-    description: "Build resilient, microservices-based apps with our cloud computing services. Whether you’re launching a startup or scaling your SaaS platform, our scalable cloud solutions can scale without limits and you get everything you need out of the box.",
+    description: "Build resilient, microservices-based apps with our cloud computing services and scalable <a href=\"https://getraisetechnologies.com/website-app-development-services\" class=\"text-blue-600 hover:text-blue-800 transition-colors duration-200\">website &amp; app development</a> expertise. Whether you’re launching a startup or scaling your SaaS platform, our cloud solutions grow without limits and give you everything you need out of the box.",
     className: "lg:-mt-[90px] lg:-ml-[50px] lg:z-[5]",
   },
   {
@@ -144,8 +144,9 @@ const ServicesSection = () => {
             <h1 className="text-black text-[2.5rem] md:text-[3.5rem] lg:text-[5rem] leading-tight font-bold m-0">
               Elevate Your Business with
             </h1>
-            <h1 className=" text-[2.3rem] text-[#E2B10F] md:text-[3rem] lg:text-[5rem] leading-tight font-bold m-0">Scalable, Secure
-              Cloud Solutions</h1>
+            <h2 className=" text-[2.3rem] text-[#E2B10F] md:text-[3rem] lg:text-[5rem] leading-tight font-bold m-0">
+              Scalable, Secure Cloud Solutions
+            </h2>
             <p className="text-[16px] md:text-[20px] font-medium w-[80%] mx-auto mt-2">
               At Getraise Technologies, we empower businesses to evolve with scalable,
               cost-effective, and future-ready cloud solutions — designed to perform,
@@ -195,7 +196,8 @@ const ServicesSection = () => {
               fontSize: '15px',
             }}
           >
-            Getraise Tech is not just another cloud services provider - we’re your growth partners in the digital sky. With more than 150+ cloud projects delivered, our team of certified experts designs custom cloud solutions that grow with your aspirations— from startups to enterprise giants. Whether it's infrastructure setup, cloud migration,  or seamless integration, we ensure that you are always future-ready.
+            Getraise Tech is not just another cloud services provider - we’re your growth partners in the digital sky. With more than 150+ cloud projects delivered, our team of certified experts designs custom cloud solutions that grow with your aspirations— from startups to enterprise giants, supporting <a href="https://getraisetechnologies.com/custom-software-development-company" className="text-blue-600 hover:text-blue-800 transition-colors duration-200"> custom software solutions </a> across industries., supporting <a href="https://getraisetechnologies.com/cloud-computing-services-india">custom software solutions</a>
+            across industries. Whether it's infrastructure setup, cloud migration,  or seamless integration, we ensure that you are always future-ready.
           </p>
 
         </div>
@@ -226,7 +228,7 @@ const ServicesSection = () => {
             <CloudCard key={index} {...cloud} />
           ))}
         </div>
-        
+
         {/* Hidden H3 headings for SEO - Cloud Services */}
         <div className="sr-only">
           <h3>Cloud Consulting & Strategy</h3>
@@ -288,13 +290,13 @@ const ServicesSection = () => {
 
         <CloudMigrationServices />
         <div className="px-4 md:px-12 my-12">
-          <div className="flex items-center space-x-2  mb-5">
+          <div className="flex items-center justify-center space-x-2 mb-5">
             <div className="w-5 h-5 bg-yellow-500 rounded-full"></div>
             <h2 className="text-[1rem] font-semibold ml-2 mb-0 augmenHeading">
               Our End-to-End Cloud Delivery Framework
             </h2>
           </div>
-          
+
           {/* Hidden H3 headings for SEO - Framework Steps */}
           <div className="sr-only">
             <h3>Consulting & Discovery</h3>
@@ -303,11 +305,11 @@ const ServicesSection = () => {
             <h3>Monitoring & Optimization</h3>
             <h3>Support & Scaling</h3>
           </div>
-          <div className="flex flex-wrap justify-between gap-2">
+          <div className="flex flex-wrap justify-center gap-2">
             {cloudImpact.map((feature, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-6 w-full sm:w-[48%] lg:w-[17.8%] min-h-[220px] flex flex-col items-center justify-start text-left transition-all"
+                className="bg-white rounded-xl p-6 w-full sm:w-[48%] lg:w-[17.8%] min-h-[220px] flex flex-col items-center justify-start text-center transition-all"
                 style={{
                   border: '1.5px solid #CECECE'
                 }}
@@ -326,15 +328,15 @@ const ServicesSection = () => {
         </div>
 
         {/* Trusted By Many Companies Section */}
-        <div className="px-4 md:px-12 my-12">
+        {/* <div className="px-4 md:px-12 my-12">
           <div className="flex items-center space-x-2 mb-5">
             <div className="w-5 h-5 bg-yellow-500 rounded-full"></div>
             <h2 className="text-[1.2rem] font-semibold ml-2 mb-0 augmenHeading">
               Trusted By Many Companies
             </h2>
           </div>
-        </div>
-        
+        </div> */}
+
         <MarqueeComp />
 
         <CloudFAQ />
@@ -359,7 +361,7 @@ const ServicesSection = () => {
           </h2>
         </div>
       </div>
-      
+
       <TestimonialCarousel />
     </div>
 

@@ -33,9 +33,9 @@ const Career = () => {
 
         {/* Content */}
         <div className="relative z-10 text-center space-y-4">
-          <h1 className="text-xl md:text-2xl lg:text-4xl font-bold text-[#D9D9D9]">
+          <h2 className="text-xl md:text-2xl lg:text-4xl font-bold text-[#D9D9D9]">
             Bold Talent Clear Results
-          </h1>
+          </h2>
           <h1 className="text-2xl md:text-4xl lg:text-6xl font-semibold">
             Become a Part of Our Team <br /> Join Us
           </h1>

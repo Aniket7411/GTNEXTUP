@@ -35,7 +35,10 @@ const WhyRac = () => {
                         <img src="/assets/onDemand.svg" className="mx-auto mb-4" alt="On-Demand Talent" />
                         <h3 className="text-xl font-bold text-black mb-4">On-Demand Talent</h3>
                         <p className="text-black w-[75%] mx-auto">
-                            Gain instant access to a pool of highly skilled professionals across
+                            Gain instant access to a pool of highly skilled professionals across performance marketing campaigns, <a href="https://getraisetechnologies.com/custom-software-development-company"
+
+                                className="text-blue-600 hover:text-blue-800 transition-colors duration-200">custom software solutions</a>
+                            , and <a href="https://getraisetechnologies.com/ui-ux-design-services-india" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">UI/UX design services</a>, without the hassle of long-term recruitment processes.
                             multiple domains, without the hassle of long-term recruitment processes.
                         </p>
                     </div>
